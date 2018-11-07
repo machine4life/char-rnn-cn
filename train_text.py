@@ -4,7 +4,7 @@
 import os
 import tensorflow as tf
 from tensorflow.contrib.tensorboard.plugins import projector
-from tensorflow.contrib.rnn as rnn_cell
+import tensorflow.contrib.rnn as rnn_cell
 #from tensorflow.contrib.rnn import core_rnn_cell as rnn_cell
 from tensorflow.contrib import legacy_seq2seq as seq2seq
 
